@@ -1,4 +1,4 @@
-# Testing Exercise
+# TDD Exercise
 
 In this exercise you will write a method and set of tests in TDD fashion which calculates a hand's BlackJack score.
 
