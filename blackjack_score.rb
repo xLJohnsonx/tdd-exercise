@@ -1,7 +1,5 @@
-module Blackjack
+# blackjack_score.rb
 
-  def blackjack_score
-
-  end
+def blackjack_score
 
 end
