@@ -1,9 +1,10 @@
 # blackjack_score.rb
 
+VALID_CARDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 'King', 'Queen', 'Jack']
+
 def blackjack_score(hand)
   score = 0
   number_aces = 0
-  VALID_CARDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 'King', 'Queen', 'Jack']
 
   if hand.class != Array || hand.length < 1 || hand.length > 5
     raise ArgumentError, 'You need to send an array of 1-5 cards'
