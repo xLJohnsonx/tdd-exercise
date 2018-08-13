@@ -4,7 +4,7 @@ In this exercise you will write a method and set of tests in TDD fashion which c
 
 ## About BlackJack
 
-In the card name BlackJack each card has a value.
+In the card BlackJack each card has a value.
 -  Number cards (2-10) carry the card's numeric value.
 -  Face cards on the other hand ("Jack", "Queen", "King") have a value of 10.
 -  Aces (1) can have a value of either 1 or 11, whichever will get the hand closest to 21 without going over.
