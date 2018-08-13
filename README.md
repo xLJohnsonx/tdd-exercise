@@ -9,7 +9,7 @@ In the card BlackJack each card has a value.
 -  Face cards on the other hand ("Jack", "Queen", "King") have a value of 10.
 -  Aces (1) can have a value of either 1 or 11, whichever will get the hand closest to 21 without going over.
 
-For example if I my hand is:  `[3, "King", 1]`, my BlackJack score is 14 (3 + 10 + 1).  If I have `[1, "Jack"]` then my score is 21 (11 + 10).
+For example if I had a 3, a King, and an Ace, my BlackJack score is 14 (3 + 10 + 1).  If I have an Ace, and a Jack then my score is 21 (11 + 10).
 
 A hand, an array of Card values, must be between 2 and 5 items inclusive.
 
